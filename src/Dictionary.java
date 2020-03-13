@@ -94,11 +94,7 @@ public class Dictionary {
         return listOfWords;
   }
 
-  /**
-   * Create the application.
-   * @throws FileNotFoundException
-   * @throws BadLocationException
-   */
+  
   public Dictionary() throws FileNotFoundException, BadLocationException {
     initialize();
   }
