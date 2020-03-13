@@ -380,7 +380,6 @@ public class Dictionary {
    			   try {
    			 	  DLM = getWords();
    			   } catch (FileNotFoundException e1) {
-   			     // TODO Auto-generated catch block
    			     e1.printStackTrace();
    			   }
    			 }
