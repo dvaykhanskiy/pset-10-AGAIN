@@ -53,10 +53,7 @@ public class Dictionary {
   private JTextField textField_1;
   private JTextField textField_3;
 
-  /**
-   * Launch the application.
-   * @throws FileNotFoundException
-   */
+  
   public static void main(String[] args) throws FileNotFoundException {
     getWords();
     EventQueue.invokeLater(new Runnable() {
