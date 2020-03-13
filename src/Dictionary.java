@@ -227,7 +227,6 @@ public class Dictionary {
     StyleConstants.setFontSize(header, 20);
     StyleConstants.setFontSize(bigWord, 36);
     StyleConstants.setBold(bigWord, true);
-
     doc.remove(0, doc.getLength());
     doc.insertString(doc.getLength(),"Example Word\n" ,bigWord );
     doc.insertString(doc.getLength(),"\n" , null );
