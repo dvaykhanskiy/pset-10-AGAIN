@@ -539,7 +539,6 @@ public class Dictionary {
     txtSearch = new JTextField();
     txtSearch.addKeyListener(new KeyAdapter() {
       @Override
-//      search box
       public void keyReleased(KeyEvent e) {
         String searched = txtSearch.getText().toLowerCase();
         DefaultListModel<String> words = new DefaultListModel<String>();
