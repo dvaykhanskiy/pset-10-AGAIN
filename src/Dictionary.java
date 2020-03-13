@@ -430,7 +430,6 @@ public class Dictionary {
 
       }
     } catch (FileNotFoundException e) {
-      // TODO Auto-generated catch block
       e.printStackTrace();
     }
         DefaultListModel<String> DLM = null;
