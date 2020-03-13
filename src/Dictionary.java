@@ -341,7 +341,6 @@ public class Dictionary {
          	  try {
      			wordList = getWordClass();
          	  } catch (FileNotFoundException e1) {
-     			// TODO Auto-generated catch block
      			e1.printStackTrace();
          	  }
          	  String[] definitions = definitionInput.split("\\s*,\\s*");
