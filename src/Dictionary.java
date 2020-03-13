@@ -488,7 +488,6 @@ public class Dictionary {
     rdbtnNewRadioButton_1.setBounds(110, 78, 59, 23);
     frmDictionary.getContentPane().add(rdbtnNewRadioButton_1);
     rdbtnNewRadioButton_1.addItemListener(new ItemListener() {
-//       select asc or desc order
         @Override
         public void itemStateChanged(ItemEvent event) {
 
