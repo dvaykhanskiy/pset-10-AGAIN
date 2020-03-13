@@ -304,7 +304,6 @@ public class Dictionary {
       }
     });
     scrollPane_1.setViewportView(list);
-
     DefaultListModel<String> DLM =  getWords();
     list.setModel(DLM);
     JRadioButton rdbtnNewRadioButton = new JRadioButton("Asc");
