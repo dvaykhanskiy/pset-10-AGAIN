@@ -48,7 +48,6 @@ public class Dictionary {
   private JTextField textField_2;
   private JTextField textField_1;
   private JTextField textField_3;
-
   public static void main(String[] args) throws FileNotFoundException {
     getWords();
     EventQueue.invokeLater(new Runnable() {
