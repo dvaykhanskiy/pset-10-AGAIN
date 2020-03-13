@@ -256,7 +256,6 @@ public class Dictionary {
           ranOnce = true;
 
           String selectedWord = list.getSelectedValue();
-
           try {
             ArrayList<Words> Words = getWordClass();
             for(Words word: Words) {
