@@ -38,7 +38,6 @@ import java.awt.Color;
 import javax.swing.JLabel;
 import java.awt.CardLayout;
 import java.awt.Font;
-
 public class Dictionary {
 
   private JFrame frmDictionary;
