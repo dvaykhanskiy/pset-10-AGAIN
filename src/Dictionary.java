@@ -546,7 +546,6 @@ public class Dictionary {
             try {
               words = Utils.reverseOrder(getWords());
           } catch (FileNotFoundException e2) {
-            // TODO Auto-generated catch block
             e2.printStackTrace();
           }
 
