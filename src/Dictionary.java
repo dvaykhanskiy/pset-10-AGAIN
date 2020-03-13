@@ -74,7 +74,6 @@ public class Dictionary {
        ;
         return  Utils.sortWordsAsc(listOfWords);
   }
-
   private static ArrayList<Words> getWordClass() throws FileNotFoundException{
     Gson gson = new Gson();
         String classpathDirectory = Utils.getClasspathDir();
