@@ -254,7 +254,6 @@ public class Dictionary {
           ranOnce = false;
         }else {
           ranOnce = true;
-
           String selectedWord = list.getSelectedValue();
           try {
             ArrayList<Words> Words = getWordClass();
