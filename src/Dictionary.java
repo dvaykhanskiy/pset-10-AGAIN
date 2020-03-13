@@ -93,7 +93,6 @@ public class Dictionary {
        ;
         return listOfWords;
   }
-
   
   public Dictionary() throws FileNotFoundException, BadLocationException {
     initialize();
