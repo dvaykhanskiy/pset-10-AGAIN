@@ -321,7 +321,6 @@ public class Dictionary {
           textField_2.setText("");
           textField_1.setText("");
           textField_3.setText("");
-          
       }
     });
     btnNewButton.setBounds(2, 11, 89, 23);
