@@ -245,7 +245,6 @@ public class Dictionary {
     JScrollPane scrollPane_1 = new JScrollPane();
     scrollPane_1.setBounds(12, 114, 179, 446);
     frmDictionary.getContentPane().add(scrollPane_1);
-
     JList<String> list = new JList<String>();
     list.addListSelectionListener(new ListSelectionListener() {
       boolean ranOnce = false;
