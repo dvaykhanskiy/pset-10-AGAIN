@@ -390,7 +390,6 @@ public class Dictionary {
     		  JOptionPane.showMessageDialog(null, "Required field was left empty!");
       	  }
       	  
-      	 
     		cardLayout.show(panel, "defintions");
     	}
     });
