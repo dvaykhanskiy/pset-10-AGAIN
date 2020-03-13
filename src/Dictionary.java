@@ -482,7 +482,6 @@ public class Dictionary {
     frmDictionary.getContentPane().add(rdbtnNewRadioButton);
     rdbtnNewRadioButton.setSelected(true);
 
-    
     buttonGroup.add(rdbtnNewRadioButton_1);
     rdbtnNewRadioButton_1.setBounds(110, 78, 59, 23);
     frmDictionary.getContentPane().add(rdbtnNewRadioButton_1);
