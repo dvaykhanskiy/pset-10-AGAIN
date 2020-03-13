@@ -315,7 +315,6 @@ public class Dictionary {
 
     JButton btnNewButton = new JButton("Add");
     btnNewButton.addActionListener(new ActionListener() {
-//      add
       public void actionPerformed(ActionEvent e) {
           cardLayout.show(panel, "addWord"); 
           textField.setText("");
