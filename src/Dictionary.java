@@ -222,7 +222,6 @@ public class Dictionary {
     textPane.setBorder(BorderFactory.createCompoundBorder(
         textPane.getBorder(),
             BorderFactory.createEmptyBorder(10, 10 ,10 , 10)));
-    
     Style bigWord = textPane.addStyle("Style", null);
     Style header = textPane.addStyle("Style", null);
     StyleConstants.setFontSize(header, 20);
