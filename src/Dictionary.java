@@ -529,7 +529,6 @@ public class Dictionary {
               doc.insertString(doc.getLength(),"Antonyms\n" ,header );
               doc.insertString(doc.getLength(),"\n1.Antonym " ,null );
           } catch (FileNotFoundException | BadLocationException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
           }
             }
