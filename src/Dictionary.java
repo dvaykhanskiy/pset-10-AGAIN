@@ -298,7 +298,6 @@ public class Dictionary {
               }
             }
           } catch (FileNotFoundException | BadLocationException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
           }
         }
