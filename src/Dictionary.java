@@ -398,7 +398,6 @@ public class Dictionary {
     
     JButton btnNewButton_1 = new JButton("Remove");
     btnNewButton_1.addActionListener(new ActionListener() {
-//      remove
       public void actionPerformed(ActionEvent arg0) {
     List<String> selectedWords = list.getSelectedValuesList();
         try {
