@@ -310,7 +310,6 @@ public class Dictionary {
     list.setModel(DLM);
     JRadioButton rdbtnNewRadioButton = new JRadioButton("Asc");
     JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("Desc");
-
     JButton btnNewButton = new JButton("Add");
     btnNewButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
