@@ -99,7 +99,6 @@ public class Dictionary {
     initialize();
   }
 
-  
   private void initialize() throws FileNotFoundException, BadLocationException {
     frmDictionary = new JFrame();
     frmDictionary.setResizable(false);
