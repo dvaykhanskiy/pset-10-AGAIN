@@ -346,7 +346,6 @@ public class Dictionary {
          	  String[] poss = posInput.split("\\s*,\\s*");
          	  String[] synonyms = synonymInput.split("\\s*,\\s*");
          	  String[] antonyms = antonymsInput.split("\\s*,\\s*");
-         	  
          	  if(definitions.length == poss.length) {
          		  Definitions[] deffs = new Definitions[definitions.length];
              	  for (int i = 0; i < definitions.length; i++) {
