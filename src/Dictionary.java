@@ -226,7 +226,6 @@ public class Dictionary {
     Style bigWord = textPane.addStyle("Style", null);
     Style header = textPane.addStyle("Style", null);
     StyleConstants.setFontSize(header, 20);
-//    StyleConstants.setBold(header, true);
     StyleConstants.setFontSize(bigWord, 36);
     StyleConstants.setBold(bigWord, true);
 
