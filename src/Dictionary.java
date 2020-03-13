@@ -23,7 +23,6 @@ import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.BorderFactory;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
