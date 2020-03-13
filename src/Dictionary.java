@@ -308,7 +308,6 @@ public class Dictionary {
     DefaultListModel<String> DLM =  getWords();
 
     list.setModel(DLM);
-    
     JRadioButton rdbtnNewRadioButton = new JRadioButton("Asc");
     JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("Desc");
 
