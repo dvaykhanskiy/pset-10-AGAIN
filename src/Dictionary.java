@@ -61,7 +61,6 @@ public class Dictionary {
       }
     });
   }
-
   private static DefaultListModel<String> getWords() throws FileNotFoundException{
     Gson gson = new Gson();
         String classpathDirectory = Utils.getClasspathDir();
@@ -98,7 +97,6 @@ public class Dictionary {
     frmDictionary.setBounds(100, 100, 800, 600);
     frmDictionary.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frmDictionary.getContentPane().setLayout(null);
-
     JPanel panel = new JPanel();
     panel.setBounds(207, 11, 566, 549);
     frmDictionary.getContentPane().add(panel);
@@ -106,7 +104,6 @@ public class Dictionary {
     
     JScrollPane scrollPane_3 = new JScrollPane();
     panel.add(scrollPane_3, "addWord");
-    
     JPanel panel_1 = new JPanel();
     panel_1.setToolTipText("");
     panel_1.setBackground(Color.WHITE);
@@ -304,6 +301,7 @@ public class Dictionary {
           textField_3.setText("");
       }
     });
+    //this is just a comment
     btnNewButton.setBounds(2, 11, 89, 23);
     frmDictionary.getContentPane().add(btnNewButton);
 
@@ -371,7 +369,7 @@ public class Dictionary {
     		cardLayout.show(panel, "defintions");
     	}
     });
-    
+    //nothing to see here Mr. Wilson
     JButton btnNewButton_1 = new JButton("Remove");
     btnNewButton_1.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent arg0) {
@@ -424,6 +422,7 @@ public class Dictionary {
             e1.printStackTrace();
           }
         }
+        //heyyyyyy
       list.setModel(DLM);
       txtSearch.setText("");
       doc.remove(0, doc.getLength());
